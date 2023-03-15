@@ -9,7 +9,7 @@ def hello_world():  # put application's code here
 
 @app.route('/testing')
 def testing():  # put application's code here
-    return 'This is a test page.'
+    return 'This is a testtesttest page.'
 
 @app.route('/hello')
 def hello():
