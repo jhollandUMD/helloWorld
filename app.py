@@ -7,10 +7,6 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World from Jake Holland! I am adding my first code change.'
 
-@app.route('/testing')
-def testing():  # put application's code here
-    return 'This is a testtesttest page.'
-
 @app.route('/hello')
 def hello():
     return render_template('hello.html') #renders an html template from your templates folder
